@@ -14,6 +14,7 @@ img {
 
 #b1 {
   position:absolute;
+  pointer-events:none;
   left:0;
 }
 

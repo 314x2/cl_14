@@ -59,6 +59,10 @@ img {
   top:230px;
 }
 
+.butterfly, .foo {
+    transition: left 0.5s ease-out, top 0.5s ease-out;
+}
+
 #message {
   position: absolute;
   left:10px;

@@ -63,6 +63,8 @@ img {
 
 .butterfly, .foo {
     transition: left 0.5s ease-out, top 0.5s ease-out;
+    pointer-events: auto; 
+    cursor: pointer;
 }
 
 #message {

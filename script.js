@@ -12,10 +12,10 @@ document.querySelectorAll('.butterfly').forEach(function (el) {
 document.querySelectorAll('.foo').forEach(function (el) {
     function moveToRandomInHouse() {
         const parent = el.offsetParent; 
-        const minX = parent.offsetWidth * 0.;27
-        const maxX = parent.offsetWidth * 0.63 - el.offsetWidth;
-        const minY = parent.offsetHeight * 0.23;
-        const maxY = parent.offsetHeight * 0.55 - el.offsetHeight;
+        const minX = parent.offsetWidth * 0.;23
+        const maxX = parent.offsetWidth * 0.61 - el.offsetWidth;
+        const minY = parent.offsetHeight * 0.21;
+        const maxY = parent.offsetHeight * 0.43 - el.offsetHeight;
 
         el.style.left = (minX + Math.random() * (maxX - minX)) + 'px';
         el.style.top = (minY + Math.random() * (maxY - minY)) + 'px';

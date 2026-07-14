@@ -1,11 +1,14 @@
 body {
   position: relative;
+  pointer-events:none;
+
 }
 
 img {
 }
 #b0 {
   position:absolute;
+  pointer-events:none;
   left:0;
 }
 
